@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1037397342825",
+    "firebase_url": "https://clevermind-project-a0678.firebaseio.com",
+    "project_id": "clevermind-project-a0678",
+    "storage_bucket": "clevermind-project-a0678.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1037397342825:android:a14342834eb92b78",
+        "android_client_info": {
+          "package_name": "com.geniusmind.malek.clevermind"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1037397342825-ubp6m216gorlsd3g8bhi6tgq9tcfqe93.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.geniusmind.malek.clevermind",
+            "certificate_hash": "af81995a7e9aeda22712c4d7d950f9bebc957f35"
+          }
+        },
+        {
+          "client_id": "1037397342825-h7qkb2uu434hnhlfkma8icipqk1kn02k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyChJxL4pzOvmMNn-5bBKKLxjsmf5caZne4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1037397342825-h7qkb2uu434hnhlfkma8icipqk1kn02k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

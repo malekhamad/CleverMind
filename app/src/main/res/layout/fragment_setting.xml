@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+<android.support.constraint.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    >
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/more" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="50dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:text="@string/change_pass"
+        app:layout_constraintStart_toStartOf="@+id/imageView10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView10" />
+
+    <Button
+    android:id="@+id/old_pass_btn"
+    style="@style/Button_Setting"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="8dp"
+    android:text="@string/old_pass"
+    app:layout_constraintEnd_toEndOf="@+id/textView14"
+    app:layout_constraintStart_toStartOf="@+id/textView14"
+    app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+    <Button
+        android:id="@+id/new_pass_btn"
+        style="@style/Button_Setting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/new_pass"
+        app:layout_constraintEnd_toEndOf="@+id/old_pass_btn"
+        app:layout_constraintStart_toStartOf="@+id/old_pass_btn"
+        app:layout_constraintTop_toBottomOf="@+id/old_pass_btn" />
+
+    <Button
+        android:id="@+id/re_pass_btn"
+        style="@style/Button_Setting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/re_pass"
+        app:layout_constraintEnd_toEndOf="@+id/new_pass_btn"
+        app:layout_constraintStart_toStartOf="@+id/new_pass_btn"
+        app:layout_constraintTop_toBottomOf="@+id/new_pass_btn" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/rate"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/re_pass_btn"
+        app:layout_constraintTop_toBottomOf="@+id/re_pass_btn" />
+
+    <RatingBar
+        android:id="@+id/rating_bar_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        style="@style/Base.Widget.AppCompat.RatingBar.Indicator"
+        app:layout_constraintStart_toStartOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/feedback"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        app:layout_constraintStart_toStartOf="@+id/rating_bar_setting"
+        app:layout_constraintTop_toBottomOf="@+id/rating_bar_setting" />
+
+    <EditText
+        android:id="@+id/feedback_text_setting"
+        android:background="@drawable/text_box_login"
+        android:textColor="@android:color/black"
+        android:gravity="start|top"
+        android:layout_width="0dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:padding="5dp"
+        android:inputType="textMultiLine"
+        android:maxLength="120"
+        android:hint="@string/feedback_hint"
+        android:textColorHint="@android:color/darker_gray"
+        app:layout_constraintEnd_toEndOf="@+id/re_pass_btn"
+        app:layout_constraintStart_toStartOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <Button
+        android:id="@+id/send_btn_setting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/text_box_login"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:textStyle="bold"
+        android:minHeight="35dp"
+        android:text="send"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintStart_toStartOf="@+id/feedback_text_setting"
+        app:layout_constraintTop_toBottomOf="@+id/feedback_text_setting" />
+
+
+</android.support.constraint.ConstraintLayout>
+</ScrollView>

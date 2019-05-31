@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view"
+    >
+<group android:checkableBehavior="single"
+    >
+
+    <item
+        android:id="@+id/menu_profile"
+        android:title="@string/profile_label"
+        android:icon="@drawable/ic_action_profile"
+        />
+        <item
+            android:id="@+id/menu_attended"
+            android:title="@string/attended_label"
+            android:icon="@drawable/ic_action_attend"
+            />
+        <item
+            android:id="@+id/menu_latest_event"
+            android:title="@string/latestevent_label"
+            android:icon="@drawable/ic_action_latest"
+            />
+        <item
+            android:id="@+id/menu_jobs"
+            android:title="@string/jobs_label"
+            android:icon="@drawable/ic_action_job"
+
+            />
+
+        <item
+            android:id="@+id/menu_payment"
+            android:title="@string/payment_label"
+            android:icon="@drawable/ic_action_payment"
+            />
+    <item
+        android:id="@+id/menu_policy"
+        android:title="@string/policy_label"
+        android:icon="@drawable/ic_action_privacy"
+        ></item>
+</group>
+
+    <item android:title="@string/more">
+
+<menu>
+    <group android:checkableBehavior="single">
+           <item
+                android:id="@+id/menu_setting"
+                android:title="@string/setting_label"
+                android:icon="@drawable/ic_action_setting"/>
+
+    <item android:id="@+id/menu_logout"
+        android:title="@string/logout_label"
+         android:icon="@drawable/log_out"
+        />
+    </group>
+</menu>
+    </item>
+
+</menu>

@@ -1,0 +1,62 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <!-- for navigation item -->
+        <item name="android:textViewStyle">@style/TextView_Style</item>
+          <item name="android:listDivider">@color/colorPrimaryDark</item>
+    </style>
+
+
+    <!-- style for text vivew -->
+    <style name="TextView_Style">
+        <item name="android:fontFamily">@font/broshk</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:textColor">@color/text_view_color</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Medium</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+    <!-- style for edit text -->
+    <style name="TextinputEditText" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textSize">16sp</item>
+        <item name="android:background">@drawable/text_box_login</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:textColor">@color/edit_text_color</item>
+        <item name="android:gravity">left</item>
+
+    </style>
+
+    <style name="textInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="android:textColorHint">@color/hintColor</item>
+        <item name="android:layout_marginStart">70dp</item>
+        <item name="android:layout_marginEnd">70dp</item>
+        <item name="android:background">@drawable/text_box_login</item>
+
+
+    </style>
+
+    <style name="Text_userInformation">
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Headline</item>
+        <item name="android:textColor">@android:color/holo_orange_light</item>
+    </style>
+
+
+    <style name="Button_Setting" parent="Widget.AppCompat.Button.Small">
+        <item name="android:minHeight">35dip</item>
+        <item name="android:background">@drawable/text_box_login</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAllCaps">true</item>
+
+    </style>
+
+
+
+
+
+</resources>

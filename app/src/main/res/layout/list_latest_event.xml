@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+
+    android:background="@drawable/text_box_login">
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/latest_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:text="power of technology and features"
+            android:textColor="#000000"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/latest_days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="22sp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:text="DAYS HERE"
+            app:layout_constraintEnd_toEndOf="@+id/latest_title"
+            app:layout_constraintStart_toStartOf="@+id/latest_title"
+            app:layout_constraintTop_toBottomOf="@+id/latest_title" />
+
+        <TextView
+            android:id="@+id/latest_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="22sp"
+            android:text="23-1-2019"
+            android:textColor="@android:color/holo_green_dark"
+            app:layout_constraintEnd_toEndOf="@+id/latest_days"
+            app:layout_constraintStart_toStartOf="@+id/latest_days"
+            app:layout_constraintTop_toBottomOf="@+id/latest_days" />
+
+        <TextView
+            android:id="@+id/latest_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10:00 - 11:30"
+            android:textSize="22sp"
+            android:textColor="@android:color/holo_blue_bright"
+            app:layout_constraintEnd_toEndOf="@+id/latest_date"
+            app:layout_constraintStart_toStartOf="@+id/latest_date"
+            app:layout_constraintTop_toBottomOf="@+id/latest_date" />
+
+        <TextView
+            android:id="@+id/textView28"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:textSize="22sp"
+            android:text="Attend Now"
+            android:textColor="@color/colorPrimaryDark"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/latest_time"
+            app:layout_constraintStart_toStartOf="@+id/latest_time"
+            app:layout_constraintTop_toBottomOf="@+id/latest_time" />
+
+
+    </android.support.constraint.ConstraintLayout>
+
+</FrameLayout>

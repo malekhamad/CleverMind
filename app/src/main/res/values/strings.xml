@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">Clever Mind</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ict">Ict , 2019</string>
+    <string name="clever_way">Clever way</string>
+    <string name="username">USERNAME</string>
+    <string name="password_hint">PASSWORD</string>
+    <string name="forget_password">forget Password?</string>
+    <string name="have_account">dont have account?</string>
+    <string name="sign_up">sign_up</string>
+    <string name="sign_up_title">SIGN UP</string>
+    <string name="personal_info">PERSONAL INFORMATION</string>
+    <string name="fullname">FULL NAME</string>
+    <string name="email_hint">EMAIL</string>
+    <string name="birth_hint">DATE OF BIRTH</string>
+
+
+    <!-- sign up error message -->
+    <string name="fill_views">please fill the required info</string>
+    <string name="email_error">your email is incorrect!</string>
+    <string name="pass_count_error">your password must contain 8 character at least</string>
+    <string name="pass_mixed_error">your password must contain digits and letters</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="profile_label">PROFILE</string>
+    <string name="attended_label">ATTENDED</string>
+    <string name="latestevent_label">LASTEST EVENT</string>
+    <string name="jobs_label">Jobs</string>
+    <string name="setting_label">SETTING</string>
+    <string name="payment_label">PAYMENT</string>
+    <string name="policy_label"><![CDATA[POLICY & PRIVACY]]></string>
+    <string name="logout_label">LOGOUT</string>
+    <string name="home">Home</string>
+    <string name="latestnews">Latest News</string>
+    <string name="training_center">Training Center</string>
+    <string name="openDrawer">openDrawer</string>
+    <string name="closeDrawer">closeDrawer</string>
+    <string name="other">Other</string>
+    <string name="more">More</string>
+    <string name="fullname_info">full name : </string>
+    <string name="username_information">UserName : </string>
+    <string name="email_information">Email : </string>
+    <string name="birth_information">Date of birth : </string>
+    <string name="edit">Edit</string>
+    <string name="inpiration_title">inpiration quote for today</string>
+    <string name="attended_courses">Attended Courses And training session</string>
+    <string name="attended_now">Attend now</string>
+    <string name="course_info">Course information</string>
+    <string name="price">Price : </string>
+    <string name="label_public">public</string>
+    <string name="label_private">private</string>
+    <string name="text_test">last updates : 15/8/1994 \n  this is very intresting topic to write abbout this is very intresting topic to write abbout first i was born in amman in 1994 . this is very intresting topic to write about first i was first i was born in amman in 1994 . this is very intresting topic to write about first i was  this is very intresting topic to write abbout first i was born in amman in 1994 . this is very intresting topic to write about first i was  this is very intresting topic to write abbout first i was born in amman in 1994 . this is very intresting topic to write about first i was born in amman in 1994 . this is vy ery intresting topic to write abobut first i was born in amman in 1994 .</string>
+    <string name="change_pass">Change Password : </string>
+    <string name="old_pass">old password</string>
+    <string name="new_pass">new password</string>
+    <string name="rate">rate us</string>
+    <string name="feedback">feedBack</string>
+    <string name="re_pass">re-password</string>
+    <string name="feedback_hint">feedback (120 character as a maximum)</string>
+    <string name="card_num">card number :</string>
+    <string name="expiration">expiration</string>
+    <string name="cvc">cvc</string>
+    <string name="save">save</string>
+    <string name="phone_hint">PHONE NUMBER</string>
+    <string name="phone_number">phone number : </string>
+    <string name="phone_error">please put your phone number correctly</string>
+    <string name="soon">Soon !</string>
+    <string name="put_email_title">put your email</string>
+
+
+    <string name="attended_course">
+        <![CDATA[
+       <p>ATTENDED <span style="color:blue;">COURSES</span> AND <span style="color:blue">TRAINING<br>SESSION!</span></p>
+       <p></p>
+        ]]>
+    </string>
+    <string name="error_invalid_email_password">your Email or password is incorrect !</string>
+    <string name="erro_user_exist">User is exist</string>
+    <string name="check_connection">please check your connection !</string>
+    <string name="reset_password">send reset link</string>
+    <string name="cancel">cancel</string>
+    <string name="fill_email_view">please put your email !</string>
+    <string name="verify_email">Verify Your Email</string>
+
+
+</resources>
